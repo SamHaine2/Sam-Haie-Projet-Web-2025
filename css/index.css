@@ -1,0 +1,234 @@
+header img {
+    width: 100px;
+}
+
+h2,
+h3,
+h4,
+a,
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avis img {
+    width: 50px;
+}
+
+.avis p {
+    font-size: 20px;
+}
+
+.avis h4 {
+    font-size: 22px;
+}
+
+.avis h2 {
+    font-size: 25px;
+    margin-bottom: 47px;
+}
+
+header ul,
+header li {
+    list-style-type: none;
+}
+
+header a {
+    color: black;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+.titre {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px black solid;
+    background-color: grey;
+    margin-top: 60px;
+}
+
+.avis {
+    width: 25%;
+    text-align: center;
+}
+
+.avis div {
+    border: 1px black dotted;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkgrey;
+}
+
+.jeux div {
+    width: 200px;
+    border: 2px black solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-size: 21px;
+    background-color: darkgrey;
+}
+
+.jeux {
+    width: 75%;
+    text-align: center;
+}
+
+.jeux h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+
+.jeux div img {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    text-decoration: underline double black 2px;
+}
+
+footer div {
+    padding: 25px;
+    width: 600px;
+    background-color: grey;
+    border: 2px solid black;
+    margin-top: 80px;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+}
+
+footer h3 {
+    font-size: 25px;
+}
+
+footer a,
+footer li {
+    font-size: 0.9em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.src {
+    margin-right: 40px;
+}
+
+header a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.auteur {
+    text-align: center;
+}
+
+.src h3 {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 40px;
+}
+
+header,
+footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    padding: 0px;
+}
+
+h1 {
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: 2.5em;
+    text-decoration: underline solid black;
+    text-shadow: 5px 5px 5px black;
+}
+
+p {
+    text-align: justify;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-image: url("https://t3.ftcdn.net/jpg/00/58/99/56/360_F_58995695_Xxp6sivLzek2guFs89VGFOM0lFMlgt84.jpg");
+    background-size: 360px 360px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-item {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.nav-item ion-icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+    .nav-item span {
+        display: none;
+    }
+
+    .nav-item ion-icon {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .avis, .jeux {
+        width: 100%;
+    }
+}
